@@ -59,9 +59,18 @@ naming pattern.
 
 ## 💡 #2 Javascript Pattern Based Questions List
 
-| S.No. | Question                         | File |
-| ----- | -------------------------------- | ---- |
-| 1     | Add pattern-based questions here | -    |
+| S.No. | Question                                    | File                                                         |
+| ----- | ------------------------------------------- | ------------------------------------------------------------ |
+| 1     | Right Triangle of Stars                     | [question1.js](./javascript-pattern-printing/question1.js)   |
+| 2     | Left Face Right Triangle of Stars           | [question2.js](./javascript-pattern-printing/question2.js)   |
+| 3     | Inverted Right Face Right Triangle of Stars | [question3.js](./javascript-pattern-printing/question3.js)   |
+| 4     | Inverted Left Face Right Triangle of Stars  | [question4.js](./javascript-pattern-printing/question4.js)   |
+| 5     | Pyramid of Stars                            | [question5.js](./javascript-pattern-printing/question5.js)   |
+| 6     | Inverted Pyramid of Stars                   | [question6.js](./javascript-pattern-printing/question6.js)   |
+| 7     | Diamond of Stars                            | [question7.js](./javascript-pattern-printing/question7.js)   |
+| 8     | Hollow Diamond of Stars                     | [question8.js](./javascript-pattern-printing/question8.js)   |
+| 9     | Hourglass of Stars                          | [question9.js](./javascript-pattern-printing/question9.js)   |
+| 10    | Hollow Square of Stars                      | [question10.js](./javascript-pattern-printing/question10.js) |
 
 ---
 
