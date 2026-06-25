@@ -34,7 +34,20 @@ naming pattern.
 | 19    | Question 19 | Create a simple calculator in JavaScript. Example: `10 + 5` → `15`                                                 | [question19.js](./javascript-logic-questions/question19.js) |
 | 20    | Question 20 | Compare two arrays for equality in JavaScript. Example: `[1,2,3]` and `[1,2,3]` → `true`                           | [question20.js](./javascript-logic-questions/question20.js) |
 | 21    | Question 21 | Find the union of two arrays in JavaScript. Example: `[1,2,3]` and `[3,4,5]` → `[1,2,3,4,5]`                       | [question21.js](./javascript-logic-questions/question21.js) |
-
+| 22    | Question 22 | Find the intersection of two arrays in JavaScript. Example: `[1,2,3]` and `[3,4,5]` → `[3]`                        | [question22.js](./javascript-logic-questions/question22.js) |
+| 23    | Question 23 | Convert Celsius to Fahrenheit or Fahrenheit to Celsius. Example: `25°C` → `77°F`                                   | [question23.js](./javascript-logic-questions/question23.js) |
+| 24    | Question 24 | Convert the first letter of each word to uppercase. Example: `hello world` → `Hello World`                         | [question24.js](./javascript-logic-questions/question24.js) |
+| 25    | Question 25 | Find Fibonacci sequence in JavaScript. Example: `n=10` → `0,1,1,2,3,5,8,13,21,34`                                  | [question25.js](./javascript-logic-questions/question25.js) |
+| 26    | Question 26 | Check the number of occurrences of a character in a string. Example: `'hello'` and `'l'` → `2`                     | [question26.js](./javascript-logic-questions/question26.js) |
+| 27    | Question 27 | Check whether a number is an Armstrong number. Example: `153` → `true`                                             | [question27.js](./javascript-logic-questions/question27.js) |
+| 28    | Question 28 | Implement Bubble Sort to sort an array. Example: `[64,34,25,12]` → `[12,25,34,64]`                                  | [question28.js](./javascript-logic-questions/question28.js) |
+| 29    | Question 29 | Check if two strings are anagrams. Example: `'listen'` and `'silent'` → `true`                                       | [question29.js](./javascript-logic-questions/question29.js) |
+| 30    | Question 30 | Find GCD and LCM of two numbers. Example: `GCD(12,18)` → `6`, `LCM(12,18)` → `36`                                   | [question30.js](./javascript-logic-questions/question30.js) |
+| 31    | Question 31 | Implement Binary Search in a sorted array. Example: `[2,5,8,23]` and `23` → `3`                                     | [question31.js](./javascript-logic-questions/question31.js) |
+| 32    | Question 32 | Reverse words in a sentence. Example: `'Hello World'` → `'World Hello'`                                              | [question32.js](./javascript-logic-questions/question32.js) |
+| 33    | Question 33 | Check if brackets are balanced in a string. Example: `'{[()]}'` → `true`                                             | [question33.js](./javascript-logic-questions/question33.js) |
+| 34    | Question 34 | Find the Kth largest element in an array. Example: `[3,7,5,8,2]` and `k=2` → `7`                                    | [question34.js](./javascript-logic-questions/question34.js) |
+| 35    | Question 35 | Rotate array to the right by k positions. Example: `[1,2,3,4,5]` and `k=2` → `[4,5,1,2,3]`                           | [question35.js](./javascript-logic-questions/question35.js) |
 ---
 
 ## 💡 #2 Javascript Pattern Based Questions List

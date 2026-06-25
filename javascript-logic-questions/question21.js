@@ -12,7 +12,7 @@ console.log(`Union of Arrays (Using Set): ${unionUsingSet}`);
 function unionOfArraysUsingConcatAndFilter(arr1, arr2) {
   const concatenatedArray = arr1.concat(arr2);
   return concatenatedArray.filter(
-    (value, index, self) => self.indexOf(value) === index,
+    (value, index, self) => self.indexOf(value) === index, // filtering unique values
   );
 }
 
