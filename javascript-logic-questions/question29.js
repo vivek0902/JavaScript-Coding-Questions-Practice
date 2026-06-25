@@ -10,7 +10,10 @@ function areAnagramsUsingSorting(str1, str2) {
   return sortedStr1 === sortedStr2;
 }
 
-console.log(`Are "${str1}" and "${str2}" anagrams (using sorting)?`, areAnagramsUsingSorting(str1, str2));
+console.log(
+  `Are "${str1}" and "${str2}" anagrams (using sorting)?`,
+  areAnagramsUsingSorting(str1, str2),
+);
 
 // Method 2: Using character frequency count with object
 function areAnagramsUsingFrequencyCount(str1, str2) {
@@ -29,7 +32,10 @@ function areAnagramsUsingFrequencyCount(str1, str2) {
   return true;
 }
 
-console.log(`Are "${str1}" and "${str2}" anagrams (using frequency count)?`, areAnagramsUsingFrequencyCount(str1, str2));
+console.log(
+  `Are "${str1}" and "${str2}" anagrams (using frequency count)?`,
+  areAnagramsUsingFrequencyCount(str1, str2),
+);
 
 // Method 3: Using Map for character frequency
 function areAnagramsUsingMap(str1, str2) {
@@ -49,4 +55,7 @@ function areAnagramsUsingMap(str1, str2) {
   return true;
 }
 
-console.log(`Are "${str1}" and "${str2}" anagrams (using Map)?`, areAnagramsUsingMap(str1, str2));
+console.log(
+  `Are "${str1}" and "${str2}" anagrams (using Map)?`,
+  areAnagramsUsingMap(str1, str2),
+);

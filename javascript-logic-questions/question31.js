@@ -21,7 +21,10 @@ function binarySearchIterative(arr, target) {
   return -1; // Element not found
 }
 
-console.log(`Binary Search (Iterative) - Index of ${target}:`, binarySearchIterative(sortedArr, target));
+console.log(
+  `Binary Search (Iterative) - Index of ${target}:`,
+  binarySearchIterative(sortedArr, target),
+);
 
 // Method 2: Binary Search using Recursion
 function binarySearchRecursive(arr, target, left = 0, right = arr.length - 1) {
@@ -37,7 +40,10 @@ function binarySearchRecursive(arr, target, left = 0, right = arr.length - 1) {
   }
 }
 
-console.log(`Binary Search (Recursive) - Index of ${target}:`, binarySearchRecursive(sortedArr, target));
+console.log(
+  `Binary Search (Recursive) - Index of ${target}:`,
+  binarySearchRecursive(sortedArr, target),
+);
 
 // Method 3: Binary Search with additional info (found or not found)
 function binarySearchWithInfo(arr, target) {
@@ -57,4 +63,7 @@ function binarySearchWithInfo(arr, target) {
   return { found: false, index: -1, message: `${target} not found in array` };
 }
 
-console.log(`Binary Search (With Info) - ${target}:`, binarySearchWithInfo(sortedArr, target));
+console.log(
+  `Binary Search (With Info) - ${target}:`,
+  binarySearchWithInfo(sortedArr, target),
+);

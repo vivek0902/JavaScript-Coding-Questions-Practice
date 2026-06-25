@@ -27,7 +27,9 @@ function findGCDUsingRecursion(a, b) {
 }
 
 const gcdUsingRecursion = findGCDUsingRecursion(num1, num2);
-console.log(`GCD of ${num1} and ${num2} (Using Recursion): ${gcdUsingRecursion}`);
+console.log(
+  `GCD of ${num1} and ${num2} (Using Recursion): ${gcdUsingRecursion}`,
+);
 
 // Method 3: LCM using formula: LCM(a, b) = (a * b) / GCD(a, b)
 function findLCM(a, b) {

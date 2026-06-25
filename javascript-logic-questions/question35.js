@@ -9,7 +9,9 @@ function rotateArrayUsingSlice(arr, k) {
   return arr.slice(-actualK).concat(arr.slice(0, -actualK));
 }
 
-console.log(`Rotated array (Using slice): ${rotateArrayUsingSlice([...arr], k)}`);
+console.log(
+  `Rotated array (Using slice): ${rotateArrayUsingSlice([...arr], k)}`,
+);
 
 // Method 2: Using spread operator and array methods
 function rotateArrayUsingSplice(arr, k) {
@@ -21,7 +23,9 @@ function rotateArrayUsingSplice(arr, k) {
   return newArr;
 }
 
-console.log(`Rotated array (Using splice): ${rotateArrayUsingSplice([...arr], k)}`);
+console.log(
+  `Rotated array (Using splice): ${rotateArrayUsingSplice([...arr], k)}`,
+);
 
 // Method 3: Using reverse (3-step reversal algorithm)
 function rotateArrayUsingReverse(arr, k) {
@@ -52,7 +56,9 @@ function rotateArrayUsingReverse(arr, k) {
   return newArr;
 }
 
-console.log(`Rotated array (Using reverse): ${rotateArrayUsingReverse([...arr], k)}`);
+console.log(
+  `Rotated array (Using reverse): ${rotateArrayUsingReverse([...arr], k)}`,
+);
 
 // Method 4: Using a for loop with modulo
 function rotateArrayUsingLoop(arr, k) {
@@ -64,4 +70,6 @@ function rotateArrayUsingLoop(arr, k) {
   return result;
 }
 
-console.log(`Rotated array (Using for loop): ${rotateArrayUsingLoop([...arr], k)}`);
+console.log(
+  `Rotated array (Using for loop): ${rotateArrayUsingLoop([...arr], k)}`,
+);

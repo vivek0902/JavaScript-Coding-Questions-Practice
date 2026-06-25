@@ -7,7 +7,9 @@ function reverseWordsUsingSplitAndReverse(sentence) {
   return sentence.split(" ").reverse().join(" ");
 }
 
-console.log(`Reversed Words (Using split and reverse): "${reverseWordsUsingSplitAndReverse(sentence)}"`);
+console.log(
+  `Reversed Words (Using split and reverse): "${reverseWordsUsingSplitAndReverse(sentence)}"`,
+);
 
 // Method 2: Using a for loop (manual reversal)
 function reverseWordsUsingForLoop(sentence) {
@@ -19,7 +21,9 @@ function reverseWordsUsingForLoop(sentence) {
   return reversed.trim();
 }
 
-console.log(`Reversed Words (Using for loop): "${reverseWordsUsingForLoop(sentence)}"`);
+console.log(
+  `Reversed Words (Using for loop): "${reverseWordsUsingForLoop(sentence)}"`,
+);
 
 // Method 3: Using reduce()
 function reverseWordsUsingReduce(sentence) {
@@ -31,7 +35,9 @@ function reverseWordsUsingReduce(sentence) {
     .trim();
 }
 
-console.log(`Reversed Words (Using reduce): "${reverseWordsUsingReduce(sentence)}"`);
+console.log(
+  `Reversed Words (Using reduce): "${reverseWordsUsingReduce(sentence)}"`,
+);
 
 // Method 4: Reverse entire string character by character
 function reverseEntireString(sentence) {

@@ -10,7 +10,9 @@ function findKthLargestUsingSorting(arr, k) {
   return sortedArr[k - 1];
 }
 
-console.log(`${k}th largest element (Using sorting): ${findKthLargestUsingSorting([...arr], k)}`);
+console.log(
+  `${k}th largest element (Using sorting): ${findKthLargestUsingSorting([...arr], k)}`,
+);
 
 // Method 2: Using Set to remove duplicates and then sort
 function findKthLargestWithoutDuplicates(arr, k) {
@@ -19,7 +21,9 @@ function findKthLargestWithoutDuplicates(arr, k) {
   return uniqueArr[k - 1];
 }
 
-console.log(`${k}th largest element (Without duplicates): ${findKthLargestWithoutDuplicates([...arr], k)}`);
+console.log(
+  `${k}th largest element (Without duplicates): ${findKthLargestWithoutDuplicates([...arr], k)}`,
+);
 
 // Method 3: Using reduce() to find kth largest
 function findKthLargestUsingReduce(arr, k) {
@@ -34,7 +38,9 @@ function findKthLargestUsingReduce(arr, k) {
   return largestValues[k - 1];
 }
 
-console.log(`${k}th largest element (Using reduce): ${findKthLargestUsingReduce(arr, k)}`);
+console.log(
+  `${k}th largest element (Using reduce): ${findKthLargestUsingReduce(arr, k)}`,
+);
 
 // Method 4: Using Math.max repeatedly (inefficient but simple)
 function findKthLargestUsingMax(arr, k) {
@@ -46,4 +52,6 @@ function findKthLargestUsingMax(arr, k) {
   return Math.max(...temp);
 }
 
-console.log(`${k}th largest element (Using Math.max): ${findKthLargestUsingMax([...arr], k)}`);
+console.log(
+  `${k}th largest element (Using Math.max): ${findKthLargestUsingMax([...arr], k)}`,
+);

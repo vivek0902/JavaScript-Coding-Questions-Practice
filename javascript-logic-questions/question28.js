@@ -18,7 +18,10 @@ function bubbleSortUsingNestedLoops(arr) {
   return arr;
 }
 
-console.log("Sorted Array (Using Bubble Sort):", bubbleSortUsingNestedLoops([...arr]));
+console.log(
+  "Sorted Array (Using Bubble Sort):",
+  bubbleSortUsingNestedLoops([...arr]),
+);
 
 // Method 2: Bubble Sort with optimization (early exit if sorted)
 function bubbleSortOptimized(arr) {
@@ -38,11 +41,17 @@ function bubbleSortOptimized(arr) {
   return arr;
 }
 
-console.log("Sorted Array (Using Optimized Bubble Sort):", bubbleSortOptimized([...arr]));
+console.log(
+  "Sorted Array (Using Optimized Bubble Sort):",
+  bubbleSortOptimized([...arr]),
+);
 
 // Method 3: Using JavaScript's built-in sort()
 function sortUsingBuiltIn(arr) {
   return arr.sort((a, b) => a - b);
 }
 
-console.log("Sorted Array (Using Built-in sort()):", sortUsingBuiltIn([...arr]));
+console.log(
+  "Sorted Array (Using Built-in sort()):",
+  sortUsingBuiltIn([...arr]),
+);
