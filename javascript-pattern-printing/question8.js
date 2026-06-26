@@ -1,15 +1,17 @@
 // pattern 8: Hollow Diamond of Stars
 /*
 
-            *
-          *   *
-        *       *
-      *           *
-    *               *
-      *           *
-        *       *
-          *   *
-            * 
+          * 
+        *   * 
+      *       * 
+    *           * 
+  *               * 
+*                   * 
+  *               * 
+    *           * 
+      *       * 
+        *   * 
+          * 
             
 */
 
@@ -37,6 +39,7 @@ for (let i = 5; i >= 1; i--) {
   }
   for (let j = 1; j <= 2 * i - 1; j++) {
     if (j === 1 || j === 2 * i - 1) {
+      // Print star at the beginning and end of the row
       row += "* "; // Print star at the beginning and end of the row
     } else {
       row += "  "; // Print spaces in between

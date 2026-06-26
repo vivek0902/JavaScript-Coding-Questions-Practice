@@ -76,9 +76,18 @@ naming pattern.
 
 ## 💡 #3 Javascript Output Based Questions List
 
-| S.No. | Question                        | File |
-| ----- | ------------------------------- | ---- |
-| 1     | Add output-based questions here | -    |
+| S.No. | Question                                                                                                       | File                                                         |
+| ----- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| 1     | What is the output of `0.3 + 0.2`? Why isn't it exactly `0.5`?                                                 | [question1.js](./javascript-output-questions/question1.js)   |
+| 2     | Difference between `yield` and `return` in JavaScript                                                          | [question2.js](./javascript-output-questions/question2.js)   |
+| 3     | Why does `9999999999999999` become `10000000000000000`?                                                        | [question3.js](./javascript-output-questions/question3.js)   |
+| 4     | What are `Number.MAX_SAFE_INTEGER` and `Number.MIN_SAFE_INTEGER`?                                              | [question4.js](./javascript-output-questions/question4.js)   |
+| 5     | What are `Infinity` and `-Infinity` in JavaScript?                                                             | [question5.js](./javascript-output-questions/question5.js)   |
+| 6     | What is the output of `NaN`, `NaN === NaN`, and `Object.is(NaN, NaN)`?                                         | [question6.js](./javascript-output-questions/question6.js)   |
+| 7     | What is `Number.EPSILON`? Difference between `parseInt()` and `parseFloat()`                                   | [question7.js](./javascript-output-questions/question7.js)   |
+| 8     | What is the output of Unary `+`, bitwise operators, and why does `1n + 1` throw an error?                      | [question8.js](./javascript-output-questions/question8.js)   |
+| 9     | What is the output of JavaScript type coercion expressions (`[] + []`, `[] + {}`, `"5" + 2`, etc.)?            | [question9.js](./javascript-output-questions/question9.js)   |
+| 10    | What is the output of JavaScript equality comparisons (`==`, `===`, `Object.is()`, `null == undefined`, etc.)? | [question10.js](./javascript-output-questions/question10.js) |
 
 ---
 
