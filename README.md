@@ -54,6 +54,7 @@ naming pattern.
 | 33                        | Convert Celsius to Fahrenheit or Fahrenheit to Celsius. Example: `25°C` → `77°F`                                   | [question23.js](./javascript-logic-questions/question23.js) |
 | 34                        | Find the largest prime number in an array. Example: `[10, 15, 3, 7, 11, 20, 17]` → `17`                            | [question3.js](./javascript-logic-questions/question3.js)   |
 | 35                        | Generate random alphanumeric symbolic password suggestions                                                         | [question5.js](./javascript-logic-questions/question5.js)   |
+| 36                        | Flatten a deeply nested array in JavaScript. Example: `[1, [2, [3, 4], 5], 6]` → `[1, 2, 3, 4, 5, 6]`              | [question36.js](./javascript-logic-questions/question36.js) |
 
 ---
 
@@ -71,6 +72,7 @@ naming pattern.
 | 8     | Hollow Diamond of Stars                     | [question8.js](./javascript-pattern-printing/question8.js)   |
 | 9     | Hourglass of Stars                          | [question9.js](./javascript-pattern-printing/question9.js)   |
 | 10    | Hollow Square of Stars                      | [question10.js](./javascript-pattern-printing/question10.js) |
+| 11    | print piramind with numerical number        | [question11.js](./javascript-pattern-printing/question11.js) |
 
 ---
 
@@ -88,6 +90,15 @@ naming pattern.
 | 8     | What is the output of Unary `+`, bitwise operators, and why does `1n + 1` throw an error?                      | [question8.js](./javascript-output-questions/question8.js)   |
 | 9     | What is the output of JavaScript type coercion expressions (`[] + []`, `[] + {}`, `"5" + 2`, etc.)?            | [question9.js](./javascript-output-questions/question9.js)   |
 | 10    | What is the output of JavaScript equality comparisons (`==`, `===`, `Object.is()`, `null == undefined`, etc.)? | [question10.js](./javascript-output-questions/question10.js) |
+| 11    | What is the output of `data.toString()`, `(100).toString()`, and why does `100.toString()` throw an error?     | [question11.js](./javascript-output-questions/question11.js) |
+| 12    | What is the output of the `delete` operator on variables (`const`, undeclared globals)?                        | [question12.js](./javascript-output-questions/question12.js) |
+| 13    | What happens when an object reference is set to `null` after being stored in an array?                         | [question13.js](./javascript-output-questions/question13.js) |
+| 14    | What is the output of `(function(){ var a = b = 3; })();` and why is `b` accessible but `a` is not?            | [question14.js](./javascript-output-questions/question14.js) |
+| 15    | What is the output when objects are used as keys in another object? Why does one value overwrite the other?    | [question15.js](./javascript-output-questions/question15.js) |
+| 16    | What is the output of `var` vs `let` inside a `for` loop with `setTimeout()`? Why do they behave differently?  | [question16.js](./javascript-output-questions/question16.js) |
+| 17    | What is the output of `this` inside a regular function vs an arrow function in an object?                      | [question17.js](./javascript-output-questions/question17.js) |
+| 18    | What is the output of accessing object properties using dot notation and bracket notation?                     | [question18.js](./javascript-output-questions/question18.js) |
+| 19    | What is the output of comparing a primitive number with `new Number()` using `==` and `===`?                   | [question19.js](./javascript-output-questions/question19.js) |
 
 ---
 
