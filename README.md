@@ -54,7 +54,6 @@ naming pattern.
 | 33                        | Convert Celsius to Fahrenheit or Fahrenheit to Celsius. Example: `25°C` → `77°F`                                   | [question23.js](./javascript-logic-questions/question23.js) |
 | 34                        | Find the largest prime number in an array. Example: `[10, 15, 3, 7, 11, 20, 17]` → `17`                            | [question3.js](./javascript-logic-questions/question3.js)   |
 | 35                        | Generate random alphanumeric symbolic password suggestions                                                         | [question5.js](./javascript-logic-questions/question5.js)   |
-| 36                        | Flatten a deeply nested array in JavaScript. Example: `[1, [2, [3, 4], 5], 6]` → `[1, 2, 3, 4, 5, 6]`              | [question36.js](./javascript-logic-questions/question36.js) |
 
 ---
 
@@ -102,6 +101,19 @@ naming pattern.
 
 ---
 
+## 💡 #4 Javascript IMP Questions List
+
+| S.No. | Question                                                                                                                                     | File                                                    |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 1     | Flatten a deeply nested array in JavaScript. Example: `[1, [2, [3, 4], 5], 6]` → `[1, 2, 3, 4, 5, 6]`                                        | [question1.js](./Javascript-IMP-Questions/question1.js) |
+| 2     | Deep flatten object Javascript Example: `{ a: 1, b: { c: 2, d: { e: 3, f: 4,},},g: 5,}` → `{ a: 1, "b.c": 2, "b.d.e": 3, "b.d.f": 4, g: 5 }` | [question2.js](./Javascript-IMP-Questions/question2.js) |
+| 3     | Implement a Debounce function in JavaScript with a real-world example (e.g., search input).                                                  | [question3.js](./Javascript-IMP-Questions/question3.js) |
+| 4     | Implement a Throttle function in JavaScript with a real-world example (e.g., scroll or resize events).                                       | [question4.js](./Javascript-IMP-Questions/question4.js) |
+| 5     | How to create a shallow copy of an object in JavaScript? Compare different methods and their limitations.                                    | [question5.js](./Javascript-IMP-Questions/question5.js) |
+| 6     | How to create a deep copy of an object in JavaScript? Compare `structuredClone()`, JSON, recursion, and Lodash.                              | [question6.js](./Javascript-IMP-Questions/question6.js) |
+
+---
+
 ## 💡 #4 Javascript Topic Based Questions List
 
 | S.No. | Question                       | File |
@@ -119,14 +131,6 @@ naming pattern.
 ---
 
 ## 💡 #4 Javascript ALGO Based Questions List
-
-| S.No. | Question                       | File |
-| ----- | ------------------------------ | ---- |
-| 1     | Add topic-based questions here | -    |
-
----
-
-## 💡 #4 Javascript IMP Questions List
 
 | S.No. | Question                       | File |
 | ----- | ------------------------------ | ---- |
