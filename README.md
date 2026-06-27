@@ -103,14 +103,18 @@ naming pattern.
 
 ## 💡 #4 Javascript IMP Questions List
 
-| S.No. | Question                                                                                                                                     | File                                                    |
-| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| 1     | Flatten a deeply nested array in JavaScript. Example: `[1, [2, [3, 4], 5], 6]` → `[1, 2, 3, 4, 5, 6]`                                        | [question1.js](./Javascript-IMP-Questions/question1.js) |
-| 2     | Deep flatten object Javascript Example: `{ a: 1, b: { c: 2, d: { e: 3, f: 4,},},g: 5,}` → `{ a: 1, "b.c": 2, "b.d.e": 3, "b.d.f": 4, g: 5 }` | [question2.js](./Javascript-IMP-Questions/question2.js) |
-| 3     | Implement a Debounce function in JavaScript with a real-world example (e.g., search input).                                                  | [question3.js](./Javascript-IMP-Questions/question3.js) |
-| 4     | Implement a Throttle function in JavaScript with a real-world example (e.g., scroll or resize events).                                       | [question4.js](./Javascript-IMP-Questions/question4.js) |
-| 5     | How to create a shallow copy of an object in JavaScript? Compare different methods and their limitations.                                    | [question5.js](./Javascript-IMP-Questions/question5.js) |
-| 6     | How to create a deep copy of an object in JavaScript? Compare `structuredClone()`, JSON, recursion, and Lodash.                              | [question6.js](./Javascript-IMP-Questions/question6.js) |
+| S.No. | Question                                                                                                                                     | File                                                      |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| 1     | Flatten a deeply nested array in JavaScript. Example: `[1, [2, [3, 4], 5], 6]` → `[1, 2, 3, 4, 5, 6]`                                        | [question1.js](./Javascript-IMP-Questions/question1.js)   |
+| 2     | Deep flatten object Javascript Example: `{ a: 1, b: { c: 2, d: { e: 3, f: 4,},},g: 5,}` → `{ a: 1, "b.c": 2, "b.d.e": 3, "b.d.f": 4, g: 5 }` | [question2.js](./Javascript-IMP-Questions/question2.js)   |
+| 3     | Implement a Debounce function in JavaScript with a real-world example (e.g., search input).                                                  | [question3.js](./Javascript-IMP-Questions/question3.js)   |
+| 4     | Implement a Throttle function in JavaScript with a real-world example (e.g., scroll or resize events).                                       | [question4.js](./Javascript-IMP-Questions/question4.js)   |
+| 5     | How to create a shallow copy of an object in JavaScript? Compare different methods and their limitations.                                    | [question5.js](./Javascript-IMP-Questions/question5.js)   |
+| 6     | How to create a deep copy of an object in JavaScript? Compare `structuredClone()`, JSON, recursion, and Lodash.                              | [question6.js](./Javascript-IMP-Questions/question6.js)   |
+| 7     | Implement Memoization in JavaScript. Cache expensive function results to improve performance.                                                | [question7.js](./Javascript-IMP-Questions/question7.js)   |
+| 8     | Implement Function Composition in JavaScript. Combine multiple functions into a single reusable function.                                    | [question8.js](./Javascript-IMP-Questions/question8.js)   |
+| 9     | Implement a Pipe function in JavaScript. Execute functions from left to right using functional programming.                                  | [question9.js](./Javascript-IMP-Questions/question9.js)   |
+| 10    | Implement a Rate Limiter in JavaScript. Restrict the number of function calls within a specified time window.                                | [question10.js](./Javascript-IMP-Questions/question10.js) |
 
 ---
 
