@@ -101,7 +101,7 @@ naming pattern.
 
 ---
 
-## 💡 #4 Javascript IMP Questions List
+## 💡 #4 Javascript IMP Concept Questions List
 
 | S.No. | Question                                                                                                                                     | File                                                      |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -115,6 +115,17 @@ naming pattern.
 | 8     | Implement Function Composition in JavaScript. Combine multiple functions into a single reusable function.                                    | [question8.js](./Javascript-IMP-Questions/question8.js)   |
 | 9     | Implement a Pipe function in JavaScript. Execute functions from left to right using functional programming.                                  | [question9.js](./Javascript-IMP-Questions/question9.js)   |
 | 10    | Implement a Rate Limiter in JavaScript. Restrict the number of function calls within a specified time window.                                | [question10.js](./Javascript-IMP-Questions/question10.js) |
+| 11    | Implement the Publish–Subscribe (Pub/Sub) Pattern in JavaScript using an Event Bus.                                                          | [question11.js](./Javascript-IMP-Questions/question11.js) |
+| 12    | Implement Currying in JavaScript. Transform a function with multiple arguments into nested functions.                                        | [question12.js](./Javascript-IMP-Questions/question12.js) |
+| 13    | Write a Polyfill for `Array.prototype.map()` in JavaScript.                                                                                  | [question13.js](./Javascript-IMP-Questions/question13.js) |
+| 14    | Write a Polyfill for `Array.prototype.filter()` in JavaScript.                                                                               | [question14.js](./Javascript-IMP-Questions/question14.js) |
+| 15    | Write a Polyfill for `Array.prototype.reduce()` in JavaScript.                                                                               | [question15.js](./Javascript-IMP-Questions/question15.js) |
+| 16    | Write a Polyfill for `Array.prototype.forEach()` in JavaScript.                                                                              | [question16.js](./Javascript-IMP-Questions/question16.js) |
+| 17    | What is the difference between `Array.prototype.map()` and `Array.prototype.forEach()`? Explain with examples.                               | [question17.js](./Javascript-IMP-Questions/question17.js) |
+| 18    | Write a Polyfill for `Function.prototype.bind()` in JavaScript.                                                                              | [question18.js](./Javascript-IMP-Questions/question18.js) |
+| 19    | Write a Polyfill for `Function.prototype.call()` in JavaScript.                                                                              | [question19.js](./Javascript-IMP-Questions/question19.js) |
+| 20    | Write a Polyfill for `Function.prototype.apply()` in JavaScript.                                                                             | [question20.js](./Javascript-IMP-Questions/question20.js) |
+| 21    | Explain the differences between `call()`, `apply()`, and `bind()` with practical examples.                                                   | [question21.js](./Javascript-IMP-Questions/question21.js) |
 
 ---
 
